@@ -1,0 +1,56 @@
+/* styles.css */
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e; /* Dark background color */
+    color: #e0e0e0; /* Light text color for better readability */
+}
+
+/* Center align the text in paragraphs */
+p {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px;
+    color: #e0e0e0; /* Light text color */
+}
+
+/* Style for the red button */
+.btnRed2 {
+    background-color: #ff4c4c; /* Darker red */
+    border-radius: 10px;
+    color: white;
+    display: block;
+    font-size: 16px;
+    height: 60px;
+    margin: 0 auto;
+    width: 300px;
+    border: none;
+    cursor: pointer;
+}
+
+.btnRed2:disabled {
+    background-color: #b0b0b0; /* Light gray for disabled state */
+    cursor: not-allowed;
+}
+
+/* Style for the green button */
+.btnGreen2 {
+    background-color: #4caf50; /* Darker green */
+    border-radius: 10px;
+    color: white;
+    display: block;
+    font-size: 16px;
+    height: 60px;
+    margin: 0 auto;
+    width: 300px;
+    border: none;
+    cursor: pointer;
+}
+
+.btnGreen2:disabled {
+    background-color: #b0b0b0; /* Light gray for disabled state */
+    cursor: not-allowed;
+}
