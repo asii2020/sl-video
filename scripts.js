@@ -48,7 +48,7 @@ document.getElementById("greenButton").addEventListener("click", () => {
     if (!redButtonClicked) {
         window.location.href = 'error.html';
     } else {
-        window.location.href = 'https://hotslfun.blogspot.com/2024/09/blog-post.html';
+        window.location.href = 'https://ikman.lk/en/shops/t-c-distributors';
     }
 });
 
